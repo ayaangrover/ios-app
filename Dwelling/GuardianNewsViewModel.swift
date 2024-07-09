@@ -5,7 +5,7 @@ class GuardianNewsViewModel: ObservableObject {
     @Published var currentPage = 1
     @Published var isLoading = false
     
-    private let apiKey = "7260105f-68fb-49d0-8195-a630c31e57b2"
+    private let apiKey = "API KEY"
     private let pageSize = 50
     private let urlString = "https://content.guardianapis.com/search?order-by=newest&show-fields=thumbnail,headline,trailText&page-size="
     
